@@ -1,0 +1,40 @@
+.body{
+    background-color: #f3e5d8;;
+    display: flex;
+    justify-content: center;
+    color: #5f574e;
+    line-height: 1.5;
+    padding: 40px
+}
+
+.outer-layer {
+    background-color: #ffffff ;
+    width: 40%;
+    padding: 40px;
+    border-radius: 24px;
+    
+}
+
+.outer-layer img{
+  width: 100%;
+  justify-content: center;
+  display: block;
+  border-radius: 12px;
+  display: flex;
+  margin-top: 25px;
+  
+}
+
+.Preparation-time{
+  background-color: #fff7fb;
+  padding: 50px ;
+  border-radius: 30px;
+  margin-bottom: 35px;
+}
+
+.Preparation-time h3 {
+  color: #7a284e;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
