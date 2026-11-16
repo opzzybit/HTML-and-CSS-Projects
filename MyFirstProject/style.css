@@ -1,0 +1,90 @@
+body {
+  font-family: Arial;
+  color: #21423f;
+  margin: 40px;
+}
+
+
+.navbar {
+  height: none;
+}
+
+.logo {
+  width: 120px;
+  float: left;
+  display: flex;
+}
+
+.menu {
+  float: left;
+  margin-left: 300px;
+  margin-top: 10px;
+  padding: 40px;
+  display: flex;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #21423f;
+  margin-right: 30px;
+}
+
+.contact-btn {
+  float: right;
+  text-decoration:none;
+  color: #191a19f6;
+  border: 2px solid #000000;
+  padding: 10px 25px;
+  margin-top: 10px;
+  border: 90%;
+}
+
+
+.hero {
+  margin-top: 20px;
+  
+}
+
+.left-side {
+  width: 60%;
+  float: left;
+}
+
+.left-side h1{
+  font-size: 50px;
+}
+.left-side h2{
+  font-size: 50px;
+}
+.left-side h3{
+  font-size: 50px;
+}
+
+.left-side input {
+  padding: 12px;
+  width: 180px;
+  border: 1px springgreen #cccccc;
+}
+
+.left-side button {
+  padding: 13px 25px;
+  background-color: #e6c6b3;
+  border: 1px springgreen ;
+  font-weight: bold;
+}
+
+.small-text {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.right-side {
+  width: 50%;
+  float: right;
+}
+
+.right-side img {
+  width: 100%;
+  display: flex;
+}
