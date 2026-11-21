@@ -54,6 +54,7 @@
 .score-total{
     color:#c8c7ff;
     margin-bottom: 10px;
+    font-size: 12px;
 }
 
 .appluse{
@@ -72,3 +73,170 @@
   margin-left: 12px;
 }
 
+.summary{
+    position: absolute;
+    margin-left: 40vh;
+    margin-top: 5vh;
+    margin-left: 42vh;
+    font-size: 13px;
+}
+
+.reaction{
+    position: absolute;
+    background-color:hsla(0, 100%, 67%, 0.08);
+    margin-left: 41vh;
+    margin-top: 11vh;
+    width: 210px;
+    height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    gap: 10px
+}
+
+.reaction img{
+    width: 18px;
+}
+
+.reaction h4{
+    margin-top: 10px;
+    color: #ff5757;
+    font-size: 14px;
+}
+
+.reaction h5{
+    margin-top: 11px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.reaction h6{
+    margin-top: 11px;
+    font-size: 13px;
+    color:  #9499a8;
+}
+
+.memory{
+    position: absolute;
+    background-color:hsla(39, 100%, 56%, 0.08);
+    margin-left: 41vh;
+    margin-top: 19vh;
+    width: 210px;
+    height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    gap: 10px
+}
+
+.memory img{
+    width: 18px;
+}
+
+.memory h4{
+    margin-top: 10px;
+    color:  #ffb01f;
+    font-size: 14px;
+}
+
+.memory h5{
+    margin-top: 11px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.memory h6{
+    margin-top: 11px;
+    font-size: 13px;
+    color:  #9499a8;
+}
+
+.verbal{
+    position: absolute;
+    background-color: hsla(166, 100%, 37%, 0.08);
+    margin-left: 41vh;
+    margin-top: 27vh;
+    width: 210px;
+    height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    gap: 13px
+}
+
+.verbal img{
+    width: 18px;
+}
+
+.verbal h4{
+    margin-top: 10px;
+    color: #00bd91;
+    font-size: 14px;
+}
+
+.verbal h5{
+    margin-top: 11px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.verbal h6{
+    margin-top: 11px;
+    font-size: 13px;
+    color:  #9499a8;
+}
+
+.visual{
+    position: absolute;
+    background-color: hsla(234, 85%, 45%, 0.08);
+    margin-left: 41vh;
+    margin-top: 35vh;
+    width: 210px;
+    height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+    gap: 13px
+}
+
+.visual img{
+    width: 18px;
+    
+}
+
+.visual h4{
+    margin-top: 10px;
+    color: #1125d4;
+    font-size: 14px;
+}
+
+.visual h5{
+    margin-top: 11px;
+    margin-left: 30px;
+    font-size: 13px;
+}
+
+.visual h6{
+    margin-top: 11px;
+    font-size: 13px;
+    color:  #9499a8;
+}
+
+.Continue-button{
+    text-decoration: none;
+    position: absolute;
+    background-color: #303b5a;
+    margin-left: 41vh;
+    margin-top: 45vh;
+    width: 210px;
+    height: 40px;
+    border-radius: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.Continue-button h1{
+    color: #ffffff;
+    margin-top: 8px;
+    font-size: 16px;
+}

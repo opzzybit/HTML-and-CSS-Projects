@@ -5,46 +5,168 @@
 }
 
 .hero{
+    height: 750px;
     background-image:url(https://res.cloudinary.com/wlw4cx68/image/upload/f_auto/q_auto/6ab9da927e32879b459b16c8_2c48c5b30809f92c4a160df25cfb3487_hero-finetics.avif);
-    background-size: cover;
-    margin-top: 40px;
+    background-size:cover;
+    background-position: center 50%;
+    
 }
 
 .logo img{
-    background-color: #ffffff;
+    filter: invert(2); 
+    margin-top: 20px;
     margin-right: 650px;
+    margin-left: 30px;
+
 }
 
 .nav-bar{
-    justify-content: center;
     display: flex;
-    list-style: none;
-    gap: 70px;
-    margin-right: 100px;
+    justify-content: space-between;             
+    width: 100%;
+    align-items: center;   
 }
 
 
-.hero h1{
-    margin-top: 80px;
+.nav-links{
+    display: flex;
+    list-style: none;
+    position: absolute;
+    gap: 80px;
+    align-items: center;
+    margin-left: 530px;
+    margin-top: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.left-text h1{
+    margin-top: 60px;
     margin-left: 30px;
     color: #ffffff;
-    font-size: xx-large;
+    font-size: 60px;
+    font-weight: 100;
+    line-height: 85px;
 }
 
 .contact{
-  
-  float: right;
-  text-decoration:none;
-  color: #191a19f6;
-  border: 2px solid #000000;
-  padding: 10px 25px;
-  margin-top: 10px;
-  border: 90%;
+    text-decoration:none;
+    color: #ffffff;
+    border: 0.6px solid#ffffff;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-right: 50px;
 }
 
+.left-text h6{
+    color: #ffffff;
+    margin-left: 145vh;
+    margin-top: 30vh;
+    font-size: 17px;
+}
 
-    
+.bottom-display{
+    display: flex;
+    position: absolute;
+    gap: 30px;
+    align-items: center;
+    bottom: 25px;
+    left: 30px;   
+}
 
+.bottom-images img{
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    margin-right: -15px;
+    margin-bottom: 40px;
+}
+
+.verify-button{
+    background-color: #565656;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.verify-button a{
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.start-button{
+    text-decoration:none;
+    color: black;
+    border: 0.6px solid#ffffff;
+    padding: 10px 25px;
+    margin-top: 160vh;
+    border-radius: 20px;
+    margin-left: 145vh;
+    position: absolute;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.explore-button{
+    text-decoration:none;
+    color: #ffffff;
+    border: 0.1px solid#000000;
+    padding: 10px 20px;
+    margin-top: 160vh;
+    border-radius: 20px;
+    margin-left: 168vh;
+    position: absolute;
+    background-color: #000000;
+    font-size: 18px;   
+}
+
+.first-section{
+    background-position: center;
+}
+.first-section h4{
+    margin-left: 146vh;
+    margin-top: -80px;
+    font-size: 17px;
+    color: #666666;
+    position: absolute;
+    line-height: 25px;
+}
+
+.first-section h2{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 30px;
+    margin-top: 35px;
+    margin-left: 50px;
+    line-height: 45px;
+    letter-spacing: -0.06em;
+    color: #222222;
+}
+
+.first-section h5{
+    color: #666666;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.section-image{
+    background-image: url(https://res.cloudinary.com/wlw4cx68/image/upload/f_auto/q_auto/6aba178cbc9469648f26de8a_ededc942747e4e6e178876ef6d645ab0_about-image-fernvale-p-1600.avif);
+    margin-top: 50px;
+    border-radius: 40px;
+}
 
 
 
