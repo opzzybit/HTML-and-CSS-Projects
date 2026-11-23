@@ -2,14 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .hero{
     height: 750px;
     background-image:url(https://res.cloudinary.com/wlw4cx68/image/upload/f_auto/q_auto/6ab9da927e32879b459b16c8_2c48c5b30809f92c4a160df25cfb3487_hero-finetics.avif);
     background-size:cover;
+    background-attachment: fixed;
     background-position: center 50%;
-    
+    backdrop-filter: blur(80px);    
 }
 
 .logo img{
@@ -17,7 +19,6 @@
     margin-top: 20px;
     margin-right: 650px;
     margin-left: 30px;
-
 }
 
 .nav-bar{
@@ -137,7 +138,7 @@
 }
 .first-section h4{
     margin-left: 146vh;
-    margin-top: -80px;
+    margin-top: -90px;
     font-size: 17px;
     color: #666666;
     position: absolute;
@@ -162,10 +163,73 @@
     margin-top: 100px;
 }
 
-.section-image{
+.about-image{
     background-image: url(https://res.cloudinary.com/wlw4cx68/image/upload/f_auto/q_auto/6aba178cbc9469648f26de8a_ededc942747e4e6e178876ef6d645ab0_about-image-fernvale-p-1600.avif);
     margin-top: 50px;
-    border-radius: 40px;
+    border-radius: 15px;
+    width: 90rem;
+    height: 36rem;
+    margin-left: 40px;
+    background-position: center 27%;
+}
+
+.capital{
+    position: absolute;
+    width: 11rem;
+    height: 12rem;
+    background-color: #000000;
+    margin-left: 2.5rem;
+    margin-top: 21.5rem;
+    border-radius: 10px;
+    background-color: rgba(30, 30, 30, 0.35);
+    backdrop-filter: blur(4px); 
+}
+
+.retention{
+    position: absolute;
+    width: 11rem;
+    height: 12rem;
+    background-color: rgba(30, 30, 30, 0.35);
+    margin-left: 15rem;
+    margin-top: 21.5rem;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);  
+}
+
+.capital h2{
+    position: absolute;
+    font-size: 35px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.capital h4{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 12px;
+    margin-left: 20px;
+    margin-top: 100px;
+    line-height: 35px;
+    color:#ffffff;
+}
+
+.retention h2{
+    position: absolute;
+    font-size: 35px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.retention h4{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 12px;
+    margin-left: 20px;
+    margin-top: 100px;
+    line-height: 35px;
+    color:#ffffff;
 }
 
 
